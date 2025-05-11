@@ -1,5 +1,6 @@
-using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace WebComicAPI.Models
 {
@@ -11,6 +12,7 @@ namespace WebComicAPI.Models
         [Required]
         public string Name { get; set; }
 
-        public ICollection<MangaGenre> MangaGenres { get; set; }
+        [JsonIgnore]
+        public ICollection<MangaGenre>? MangaGenres { get; set; } = new List<MangaGenre>();
     }
 }

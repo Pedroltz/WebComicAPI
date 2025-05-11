@@ -1,12 +1,190 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|c:\\users\\pedro\\desktop\\webcomic\\webcomicapi\\webcomicapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|solutionrelative:webcomicapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|c:\\users\\pedro\\desktop\\webcomic\\webcomicapi\\webcomicapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|solutionrelative:webcomicapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|c:\\users\\pedro\\desktop\\webcomic\\webcomicapi\\webcomicapi\\controllers\\bannerhighlightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|solutionrelative:webcomicapi\\controllers\\bannerhighlightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|c:\\users\\pedro\\desktop\\webcomic\\webcomicapi\\webcomicapi\\controllers\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|solutionrelative:webcomicapi\\controllers\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|c:\\users\\pedro\\desktop\\webcomic\\webcomicapi\\webcomicapi\\controllers\\mangacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|solutionrelative:webcomicapi\\controllers\\mangacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|c:\\users\\pedro\\desktop\\webcomic\\webcomicapi\\webcomicapi\\controllers\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|solutionrelative:webcomicapi\\controllers\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|c:\\users\\pedro\\desktop\\webcomic\\webcomicapi\\webcomicapi\\helpers\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|solutionrelative:webcomicapi\\helpers\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|c:\\users\\pedro\\desktop\\webcomic\\webcomicapi\\webcomicapi\\models\\manga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|solutionrelative:webcomicapi\\models\\manga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|c:\\users\\pedro\\desktop\\webcomic\\webcomicapi\\webcomicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|solutionrelative:webcomicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|c:\\users\\pedro\\desktop\\webcomic\\webcomicapi\\webcomicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85327D67-A1B0-40A6-BD85-29CDD3D189BF}|WebComicAPI\\WebComicAPI.csproj|solutionrelative:webcomicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebComicAPI\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebComicAPI\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:54:20.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebComicAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebComicAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:54:19.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BannerHighlightController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Controllers\\BannerHighlightController.cs",
+              "RelativeDocumentMoniker": "WebComicAPI\\Controllers\\BannerHighlightController.cs",
+              "ToolTip": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Controllers\\BannerHighlightController.cs",
+              "RelativeToolTip": "WebComicAPI\\Controllers\\BannerHighlightController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:54:19.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChapterController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Controllers\\ChapterController.cs",
+              "RelativeDocumentMoniker": "WebComicAPI\\Controllers\\ChapterController.cs",
+              "ToolTip": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Controllers\\ChapterController.cs",
+              "RelativeToolTip": "WebComicAPI\\Controllers\\ChapterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:54:18.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PageController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Controllers\\PageController.cs",
+              "RelativeDocumentMoniker": "WebComicAPI\\Controllers\\PageController.cs",
+              "ToolTip": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Controllers\\PageController.cs",
+              "RelativeToolTip": "WebComicAPI\\Controllers\\PageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:54:09.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebComicAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Program.cs",
+              "RelativeToolTip": "WebComicAPI\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwCkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:51:45.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileHelper.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Helpers\\FileHelper.cs",
+              "RelativeDocumentMoniker": "WebComicAPI\\Helpers\\FileHelper.cs",
+              "ToolTip": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Helpers\\FileHelper.cs",
+              "RelativeToolTip": "WebComicAPI\\Helpers\\FileHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:42:35.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MangaController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Controllers\\MangaController.cs",
+              "RelativeDocumentMoniker": "WebComicAPI\\Controllers\\MangaController.cs",
+              "ToolTip": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Controllers\\MangaController.cs",
+              "RelativeToolTip": "WebComicAPI\\Controllers\\MangaController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwDwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:34:57.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Manga.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Models\\Manga.cs",
+              "RelativeDocumentMoniker": "WebComicAPI\\Models\\Manga.cs",
+              "ToolTip": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\Models\\Manga.cs",
+              "RelativeToolTip": "WebComicAPI\\Models\\Manga.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:33:54.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebComicAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\pedro\\Desktop\\WebComic\\WebComicAPI\\WebComicAPI\\appsettings.json",
+              "RelativeToolTip": "WebComicAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-01T03:04:43.125Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
