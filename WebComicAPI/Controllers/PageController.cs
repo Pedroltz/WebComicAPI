@@ -65,16 +65,16 @@ namespace WebComicAPI.Controllers
 
         private bool PageExists(int id) => _context.Pages.Any(e => e.Id == id);
 
-        //NOVA FUN«√O: Upload de imagem para uma p·gina de capÌtulo
+            var folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "pages", $"manga_{mangaId}", $"chapter_{chapterId}");
         [HttpPost("upload/{mangaId}/{chapterId}")]
         public async Task<IActionResult> UploadPageImage(int mangaId, int chapterId, IFormFile file)
         {
             if (file == null || file.Length == 0)
-                return BadRequest("Arquivo inv·lido.");
+                return BadRequest("Arquivo inv√°lido.");
 
             var folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imagens", $"manga_{mangaId}", $"capitulo_{chapterId}");
             if (!Directory.Exists(folderPath))
-                return NotFound("Pasta de capÌtulo n„o encontrada.");
+                return NotFound("Pasta de cap√≠tulo n√£o encontrada.");
 
             var fileName = Path.GetFileName(file.FileName);
             var savePath = Path.Combine(folderPath, fileName);

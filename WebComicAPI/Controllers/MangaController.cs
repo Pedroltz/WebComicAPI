@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using WebComicAPI.Data;
 using WebComicAPI.Models;
 using WebComicAPI.Helpers;
+using WebComicAPI.Models.DTOs;
+using System.IO;
 
 namespace WebComicAPI.Controllers
 {
@@ -35,35 +37,58 @@ namespace WebComicAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Manga>> PostManga(Manga manga)
+        public async Task<ActionResult<Manga>> PostManga([FromForm] MangaRequestDTO dto)
         {
+            var genres = await _context.Genres.Where(g => dto.GenreIds.Contains(g.Id)).ToListAsync();
+            if (genres.Count != dto.GenreIds.Count)
+                return BadRequest("One or more genres not found.");
+
+            var manga = new Manga { Name = dto.Name, Description = dto.Description, Author = dto.Author };
             _context.Mangas.Add(manga);
             await _context.SaveChangesAsync();
 
-            // CRIAÇÃO AUTOMÁTICA DA PASTA
-            FileHelper.CreateMangaFolder(manga.Id);
+            foreach (var id in dto.GenreIds)
+                _context.MangaGenres.Add(new MangaGenre { MangaId = manga.Id, GenreId = id });
 
+            if (dto.Cover != null && dto.Cover.Length > 0)
+            {
+                var ext = Path.GetExtension(dto.Cover.FileName).ToLower();
+                if (!new[] { ".jpg", ".jpeg", ".png" }.Contains(ext))
+                    return BadRequest("Invalid cover file.");
+                manga.CoverPath = FileHelper.SaveCover(dto.Cover, manga.Id);
+            }
+
+            await _context.SaveChangesAsync();
             return CreatedAtAction(nameof(GetManga), new { id = manga.Id }, manga);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutManga(int id, Manga manga)
+        public async Task<IActionResult> PutManga(int id, [FromForm] MangaRequestDTO dto)
         {
-            if (id != manga.Id) return BadRequest();
-            _context.Entry(manga).State = EntityState.Modified;
+            var manga = await _context.Mangas.Include(m => m.MangaGenres).FirstOrDefaultAsync(m => m.Id == id);
+            if (manga == null) return NotFound();
 
-            try
+            manga.Name = dto.Name;
+            manga.Description = dto.Description;
+            manga.Author = dto.Author;
+
+            _context.MangaGenres.RemoveRange(manga.MangaGenres);
+            foreach (var gid in dto.GenreIds)
             {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!MangaExists(id))
-                    return NotFound();
-                else
-                    throw;
+                if (!await _context.Genres.AnyAsync(g => g.Id == gid))
+                    return BadRequest($"Genre {gid} not found.");
+                _context.MangaGenres.Add(new MangaGenre { MangaId = manga.Id, GenreId = gid });
             }
 
+            if (dto.Cover != null && dto.Cover.Length > 0)
+            {
+                var ext = Path.GetExtension(dto.Cover.FileName).ToLower();
+                if (!new[] { ".jpg", ".jpeg", ".png" }.Contains(ext))
+                    return BadRequest("Invalid cover file.");
+                manga.CoverPath = FileHelper.SaveCover(dto.Cover, manga.Id);
+            }
+
+            await _context.SaveChangesAsync();
             return NoContent();
         }
 
