@@ -13,6 +13,6 @@ namespace WebComicAPI.Models
 
         public int Number { get; set; }
 
-        public byte[] Image { get; set; }
+        public string ImagePath { get; set; }
     }
 }

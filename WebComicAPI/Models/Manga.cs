@@ -15,7 +15,7 @@ namespace WebComicAPI.Models
 
         public string Author { get; set; }
 
-        public byte[] Cover { get; set; } 
+        public string CoverPath { get; set; }
 
         public ICollection<Chapter> Chapters { get; set; }
 
